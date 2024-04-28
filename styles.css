@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    background-color: black;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+#keyForm {
+    margin-bottom: 20px;
+}
+
+#keyInput {
+    padding: 10px;
+}
+
+button, a {
+    padding: 10px 20px;
+    background-color: rgb(140, 0, 255);
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none; /* For anchor tag */
+}
+
+button:hover, a:hover {
+    background-color: rgb(140, 0, 255);
+}
